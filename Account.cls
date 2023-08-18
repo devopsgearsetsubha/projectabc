@@ -4,7 +4,7 @@ public class AccountController
   {
     List<Account> lstAccount = [Select id,name from Account];
     system.debug('Account::'+lstAccount);
-    system.debug('Account List');// change from VS code
+    system.debug('Account List');// change from VS code projectabc
     return lstAccount;
   }
 }
